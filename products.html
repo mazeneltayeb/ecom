@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project-4 | E-commerce Project</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section -->
+    <header id="header" class="header">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="company logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-2 ">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item mx-2 nav-active">
+              <a href="products.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="singleproduct.html" class="nav-link">Single Product</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="store.html" class="nav-link">Store</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons d-none d-lg-flex">
+          <!-- single icon -->
+          <div class="navbar-icon mx-2"><i class="fas fa-search"></i></div>
+          <!-- end of single icon -->
+          <!-- single icon -->
+          <a href="store.html" class="navbar-icon mx-2 navbar-cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <div class="cart-items">2</div>
+          </a>
+          <!-- end of  single icon -->
+        </div>
+      </nav>
+      <!-- end of navbar -->
+      <div class="banner-product d-flex pl-3 pl-lg-5 align-items-center text-center justify-content-center">
+          <div>
+            <h1 class="text-slanted text-capitalize display-4 text-yellow">
+                comfy sloth
+            </h1>
+            <h1 class="text-capitalize display-4 font-weight-bold">
+                our products
+            </h1>
+          </div>
+      </div>
+    </header>
+    <!-- end of header section -->
+
+    <!-- product section  -->
+    <section id="products" class="products">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- product info -->
+          
+          <!-- end of product info -->
+          <!-- product img -->
+          <div class="col-10 mx-auto col-md-7 col-lg-9 my-3">
+            <div class="row">
+              <!-- single product -->
+          <div class="col-10 mx-auto col-md-6 col-lg-4">
+            <div class="featured-container p-5">
+              <img src="img/img-products/product-7.png" alt="" class="img-fluid">
+              <span class="featured-search-icon" data-toggle="modal" data-target="#productModal">
+                <i class="fas fa-search"></i>
+              </span>
+              <a href="#" class="featured-store-link text-capitalize">add to cart</a>
+            </div>
+            <h6 class="text-capitalize text-center my-2">
+              special product
+            </h6>
+            <h6 class="text-center">
+              <span class="text-muted old-price mx-2">$200</span>
+              <span>$100</span>
+            </h6>
+          </div>
+          <!-- end of single product -->
+          
+
+    <!-- skills section -->
+    <section id="skills" class="skills py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-md-6 col-lg-4 mx-auto d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fas fa-truck"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">
+                free shipping
+              </h3>
+              <p class="text-capitalize text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+              </p>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 col-lg-4 mx-auto d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fas fa-comment-dollar"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">
+                price promise
+              </h3>
+              <p class="text-capitalize text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+              </p>
+            </div>
+          </div>
+          <div class="col-10 col-md-6 col-lg-4 mx-auto d-flex my-3">
+            <div class="skill-icon mr-3">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="skill-text">
+              <h3 class="text-uppercase text-white">
+                lifetime warranty
+              </h3>
+              <p class="text-capitalize text-muted">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, obcaecati!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of skills section -->
+
+   
+    <!-- jQuery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- fontwesome js -->
+    <script src="js/all.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
