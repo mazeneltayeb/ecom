@@ -1,0 +1,79 @@
+:root {
+  --mainYellow: #fdbe02;
+  --mainWhite: #fff;
+  --mainBlack: #071013;
+  --mainGrey: #9b9999;
+  --TransGrey: rgba(0, 0, 0, 0.1);
+}
+body {
+  color: var(--mainBlack);
+  background: var(--mainWhite);
+  font-family: "Mali", cursive
+}
+
+/* navbar */
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+li .active{
+  border-bottom: 0.1rem solid var(--mainYellow);
+}
+/* navbar */
+
+
+/* carousel */
+.carousel-item img{
+  height: 70dvh;
+}
+
+ /* carousel */
+
+  .icon{
+  background-color:var(--mainGrey);
+  color: var(--mainYellow);
+ } 
+
+ /* product */
+ .card{
+  cursor: pointer;
+ }
+ .img-card{
+  background-color: var(--TransGrey);
+ }
+ .card-body{
+  background-color: var(--mainWhite);
+ 
+ }
+ .card-button{
+  top: 70%;
+  background-color: var(--mainYellow);
+  color: var(--mainBlack);
+  transition: all 1s ease-in-out;
+  transform: translateX(110%);
+ }
+ .card:hover .card-button{
+  transform: translateX(0%);
+ }
+ .card-button:hover{
+  background-color: var(--mainYellow);
+  color: var(--mainBlack);
+  text-decoration: underline ;
+ }
+.card-body .old-price{
+text-decoration: line-through;
+}
+ /* product */
+
+
+ /*  */
+ .footer{
+  background-color: var(--mainBlack);
+
+ }
+
+ .footer-icon{
+  color: var(--mainYellow);
+ }
+ /*  */
