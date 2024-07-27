@@ -67,13 +67,51 @@ text-decoration: line-through;
  /* product */
 
 
- /*  */
+ /* footer */
  .footer{
   background-color: var(--mainBlack);
-
  }
 
  .footer-icon{
   color: var(--mainYellow);
  }
- /*  */
+ /* footer */
+
+/* banner products */
+ .banner-product{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/productsBcg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+ }
+
+ .yellow-text{
+  color: var(--mainYellow);
+ }
+
+ .dark-text {
+    font-size: 56px;
+    font-weight: 600;
+ }
+ /* banner products */
+
+ /* banner-singleproduct */
+ .banner-singleproduct{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/singleBcg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+ }
+ /* banner-singleproduct */
+
+ /*  .banner-store */
+ .banner-store{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/storeBcg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+ }
+ /*  .banner-store */
