@@ -77,13 +77,30 @@ text-decoration: line-through;
  }
  /* footer */
 
-/* banner products */
+
  .banner-product{
   min-height: 60vh;
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/productsBcg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
+  background-attachment: fixed;
+ }
+ .banner-single-product{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/singleBcg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+ }
+ .banner-store{
+  min-height: 60vh;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/storeBcg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
  }
 
  .yellow-text{
@@ -94,24 +111,51 @@ text-decoration: line-through;
     font-size: 56px;
     font-weight: 600;
  }
- /* banner products */
 
- /* banner-singleproduct */
- .banner-singleproduct{
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/singleBcg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
+/* single-product */
+ .simple-product-photos {
+  background-color: var(--TransGrey);
+  opacity: 0.5;
+  cursor: pointer;
+  border-right: 1px solid var(--mainBlack);
  }
- /* banner-singleproduct */
+ .simple-product-photos:hover{
+  border:2px solid var(--mainYellow) ;
+  background-color: transparent;
+  opacity: 1;
+ }
+ .rate svg{
+  color: var(--mainYellow);
+ }
+  .color span{
+    width: 16px;
+    height: 16px;
+  }
 
- /*  .banner-store */
- .banner-store{
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/storeBcg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
+ .number-of-order span{
+  border: 0.1rem solid black;
+
  }
- /*  .banner-store */
+ .number-of-order span:hover{
+  color: white;
+  background-color: black;
+ }
+ .button-add button{
+  border: 0.1rem solid black;
+ }
+ .button-add :first-child:hover{
+  color: white;
+  background-color: black;
+ }
+ .button-add :last-child{
+  color: black;
+  background-color: var(--mainYellow);
+  border: none;
+ }
+ .button-add :last-child:hover{
+  background-color: black;
+  color: var(--mainYellow);
+  border: none;
+ }
+
+ /* single-product */
