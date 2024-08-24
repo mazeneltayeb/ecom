@@ -1,161 +1,164 @@
 :root {
-  --mainYellow: #fdbe02;
-  --mainWhite: #fff;
-  --mainBlack: #071013;
-  --mainGrey: #9b9999;
-  --TransGrey: rgba(0, 0, 0, 0.1);
+    --mainYellow: #fdbe02;
+    --mainWhite: #fff;
+    --mainBlack: #071013;
+    --mainGrey: #9b9999;
+    --TransGrey: rgba(0, 0, 0, 0.1);
+}
+*{
+  box-sizing: border-box;
 }
 body {
-  color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: "Mali", cursive
-}
-
-/* navbar */
-
-.nav-link{
-  font-size: 1.5rem;
-}
-
-li .active{
-  border-bottom: 0.1rem solid var(--mainYellow);
-}
-/* navbar */
-
-
-/* carousel */
-.carousel-item img{
-  height: 70dvh;
-}
-
- /* carousel */
-
-  .icon{
-  background-color:var(--mainGrey);
-  color: var(--mainYellow);
- } 
-
- /* product */
- .card{
-  cursor: pointer;
- }
- .img-card{
-  background-color: var(--TransGrey);
- }
- .card-body{
-  background-color: var(--mainWhite);
- 
- }
- .card-button{
-  top: 70%;
-  background-color: var(--mainYellow);
-  color: var(--mainBlack);
-  transition: all 1s ease-in-out;
-  transform: translateX(110%);
- }
- .card:hover .card-button{
-  transform: translateX(0%);
- }
- .card-button:hover{
-  background-color: var(--mainYellow);
-  color: var(--mainBlack);
-  text-decoration: underline ;
- }
-.card-body .old-price{
-text-decoration: line-through;
-}
- /* product */
-
-
- /* footer */
- .footer{
-  background-color: var(--mainBlack);
- }
-
- .footer-icon{
-  color: var(--mainYellow);
- }
- /* footer */
-
-
- .banner-product{
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/productsBcg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
- }
- .banner-single-product{
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/singleBcg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
- }
- .banner-store{
-  min-height: 60vh;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/storeBcg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position:center;
-  background-attachment: fixed;
- }
-
- .yellow-text{
-  color: var(--mainYellow);
- }
-
- .dark-text {
-    font-size: 56px;
-    font-weight: 600;
- }
-
-/* single-product */
- .simple-product-photos {
-  background-color: var(--TransGrey);
-  opacity: 0.5;
-  cursor: pointer;
-  border-right: 1px solid var(--mainBlack);
- }
- .simple-product-photos:hover{
-  border:2px solid var(--mainYellow) ;
-  background-color: transparent;
-  opacity: 1;
- }
- .rate svg{
-  color: var(--mainYellow);
- }
-  .color span{
-    width: 16px;
-    height: 16px;
+    color: var(--mainBlack);
+    background: var(--mainWhite);
+    font-family: "Mali", cursive
   }
 
- .number-of-order span{
-  border: 0.1rem solid black;
+  /* navbar */
 
- }
- .number-of-order span:hover{
-  color: white;
-  background-color: black;
- }
- .button-add button{
-  border: 0.1rem solid black;
- }
- .button-add :first-child:hover{
-  color: white;
-  background-color: black;
- }
- .button-add :last-child{
-  color: black;
-  background-color: var(--mainYellow);
-  border: none;
- }
- .button-add :last-child:hover{
-  background-color: black;
-  color: var(--mainYellow);
-  border: none;
- }
+  .nav-link{
+    font-size: 1.5rem;
+  }
 
- /* single-product */
+  li .active{
+    border-bottom: 0.1rem solid var(--mainYellow);
+  }
+  /* navbar */
+
+  
+  /* carousel */
+  .carousel-item img{
+    height: 70dvh;
+    }
+   /* carousel */
+
+    /* services */
+    .icon{
+    background-color:var(--mainGrey);
+    color: var(--mainYellow);
+     } 
+
+   /* product */
+   .card{
+    cursor: pointer;
+    }
+   .img-card{
+    background-color: var(--TransGrey);
+    }
+   .card-body{
+    background-color: var(--mainWhite);
+   
+    }
+   .card-button{
+    top: 70%;
+    background-color: var(--mainYellow);
+    color: var(--mainBlack);
+    transition: all 1s ease-in-out;
+    transform: translateX(110%);
+   }
+   .card:hover .card-button{
+    transform: translateX(0%);
+   }
+   .card-button:hover{
+    background-color: var(--mainYellow);
+    color: var(--mainBlack);
+    text-decoration: underline ;
+   }
+  .card-body .old-price{
+    text-decoration: line-through;
+  }
+   /* product */
+
+
+   /* footer */
+   .footer{
+    background-color: var(--mainBlack);
+   }
+
+   .footer-icon{
+    color: var(--mainYellow);
+   }
+   /* footer */
+
+
+   .banner-product{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/productsBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+   }
+   .banner-single-product{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/singleBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+   }
+   .banner-store{
+    min-height: 60vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(/img/pageBcg/storeBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+   }
+
+   .yellow-text{
+    color: var(--mainYellow);
+   }
+
+   .dark-text {
+      font-size: 56px;
+      font-weight: 600;
+   }
+
+/* single-product */
+   .simple-product-photos {
+    background-color: var(--TransGrey);
+    opacity: 0.5;
+    cursor: pointer;
+    border-right: 1px solid var(--mainBlack);
+   }
+   .simple-product-photos:hover{
+    border:2px solid var(--mainYellow) ;
+    background-color: transparent;
+    opacity: 1;
+   }
+   .rate svg{
+    color: var(--mainYellow);
+   }
+    .color span{
+      width: 16px;
+      height: 16px;
+    }
+
+   .number-of-order span{
+    border: 0.1rem solid black;
+  
+   }
+   .number-of-order span:hover{
+    color: white;
+    background-color: black;
+   }
+   .button-add button{
+    border: 0.1rem solid black;
+   }
+   .button-add :first-child:hover{
+    color: white;
+    background-color: black;
+   }
+   .button-add :last-child{
+    color: black;
+    background-color: var(--mainYellow);
+    border: none;
+   }
+   .button-add :last-child:hover{
+    background-color: black;
+    color: var(--mainYellow);
+    border: none;
+   }
+
+   /* single-product */
